@@ -1,0 +1,6 @@
+.formControl {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr !important;
+  column-gap: 5% !important;
+  margin-bottom: 5% !important;
+}
