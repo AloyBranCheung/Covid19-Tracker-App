@@ -35,7 +35,7 @@ export default function Cards({
                 Date Retrieved: {new Date(Retrieved).toDateString()}
               </Typography>
               <Typography variant="body2">
-                Number of active cases of COVID-19
+                Number of confirmed cases of COVID-19
               </Typography>
             </CardContent>
           </Card>
@@ -50,7 +50,7 @@ export default function Cards({
           <Card>
             <CardContent>
               <Typography color="text.secondary" gutterBottom>
-                New Infected
+                New Confirmed
               </Typography>
               <Typography variant="h5">
                 <CountUp end={NewConfirmed} duration={0.5} separator="," />
@@ -59,7 +59,7 @@ export default function Cards({
                 Date Retrieved: {new Date(Retrieved).toDateString()}
               </Typography>
               <Typography variant="body2">
-                Number of new cases of COVID-19
+                Number of new confirmed cases of COVID-19
               </Typography>
             </CardContent>
           </Card>
